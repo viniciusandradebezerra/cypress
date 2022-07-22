@@ -1,8 +1,6 @@
 /* eslint-disable no-undef */
-describe('empty spec', () => {
+describe('test visit site', () => {
   it('test cypress', () => {
-    
     cy.visit('http://localhost:3000')
-    cy.get('.App-header').contains('src/App.js')
   })
 })
